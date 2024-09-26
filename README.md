@@ -1,5 +1,3 @@
-# Software_Verification_Validation
-
 # CSE-565 Project 3: Graphical User Interface Testing Project
 
 ## Table of Contents
@@ -97,4 +95,53 @@ In Version 2, the following modifications were made:
 ## Table of Contents
 1. [Tool and Code Coverage](#1-tool-and-code-coverage)
 2. [Test Cases](#2-test-cases)
-3. [Test Coverage Reports](#3
+3. [Test Coverage Reports](#3-test-coverage-reports)
+4. [Static Analysis Tool](#4-static-analysis-tool)
+5. [Assessment of the Tool](#5-assessment-of-the-tool)
+
+## 1. Tool and Code Coverage
+- **IDE**: Eclipse IDE was used to run the Java code.
+- **Test Framework**: JUnit was used to create and execute the test cases.
+- **Coverage Tool**: EclEmma was used to generate coverage reports.
+
+## 2. Test Cases
+1. Test Case 1: Cost > Input.
+2. Test Case 2: Cost < Input.
+3. Test Case 3: Cost = Input.
+4. Test Case 4: Additional item buying logic with Cost > Input.
+
+## 3. Test Coverage Reports
+- **Statement Coverage**: 100%
+- **Decision Coverage**: 93%
+
+## 4. Static Analysis Tool
+- **Tool**: SonarLint was used for static code analysis.
+- **Impact Levels**: Issues detected are classified into high, medium, or low impact.
+
+## 5. Assessment of the Tool
+- **Usage**: SonarLint is widely used for various programming languages.
+- **Evaluation**: It provides a simple installation process, with detailed reports on code quality and static analysis.
+
+---
+
+# CSE-565 Project 1: Specification-Based Testing & Design of Experiments
+
+## Table of Contents
+1. [Explanation of Test Cases](#1-explanation-of-test-cases)
+2. [Assessment of the Test Cases](#2-assessment-of-the-test-cases)
+3. [Assessment of the Tool](#3-assessment-of-the-tool)
+
+## 1. Explanation of Test Cases
+The project used **Design of Experiments (DOE)**, creating 25 cases from JMP.
+The test cases achieved reasonable coverage, consisting of all possible factor combinations.
+
+## 2. Assessment of the Test Cases
+The maximum number of combinations was `800 (5*2*4*4*5)`, but DOE Pairwise Combinations reduced the number to 25, which still achieved sufficient code coverage.
+
+## 3. Assessment of the Tool
+- **Tool**: JMP was used to create the test cases.
+- **Usage**: JMP is user-friendly and can easily handle complex data challenges.
+- **Evaluation**: JMP is widely used across industries, and the software is easy to install from ASU's app page or the official website.
+
+## References
+- [JMP Official Website](https://www.jmp.com/zh_tw/home.html)
